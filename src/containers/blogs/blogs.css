@@ -1,0 +1,48 @@
+.blog-box {
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+.blog-box h2 {
+  color: #00dbd0;
+  font-size: 18px;
+}
+
+.blog-box img {
+  border-radius: 20px 20px 0 0;
+  max-width: 270px;
+  min-width: 100px;
+}
+
+.blog-box p {
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+.blog-box-span {
+  font-size: 14px;
+  line-height: 1.36;
+  cursor: pointer;
+  border-bottom: 2px solid #00dbd0;
+}
+
+.blog-section {
+  padding: 20px;
+}
+
+.blog-section-span {
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+.blog-section p {
+  font-size: 16px;
+  line-height: 1.31;
+}
+
+.blogs-container {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

@@ -1,0 +1,152 @@
+.box-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box-section > img {
+  margin-top: 20px;
+}
+
+.button-section-first {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00dbd0;
+  padding: 14px 64px 16px 48px;
+  outline: none;
+  -webkit-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.button-section-first:hover {
+  color: #00dbd0;
+  background-color: #ffffff;
+  border: 2px solid #00dbd0;
+}
+
+.description {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 100px;
+}
+
+.description .title1 {
+  font-size: 36px;
+  line-height: 1.33;
+  justify-self: left;
+}
+
+.description .title2 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.32;
+}
+
+.description .title3 {
+  margin: 30px 0 30px 0;
+  font-size: 20px;
+  line-height: 1.35;
+}
+.home {
+  padding: 2rem 6rem;
+  margin-top: 100px;
+  position: relative;
+}
+
+.logo-image-big {
+  padding: 40px;
+  border: 3px solid #00dbd0;
+}
+
+.plant-image {
+  z-index: 2;
+  position: absolute;
+  right: 170px;
+}
+
+.plant-logo-image {
+  float: right;
+  display: block;
+}
+
+.present-section {
+  padding-top: 8rem;
+}
+
+.present-section span {
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+.present-section p {
+  font-size: 16px;
+  line-height: 1.31;
+}
+.welcome-section {
+  margin-top: 230px;
+  padding: 40px;
+  display: inline-block;
+}
+
+.section-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-section img {
+  display: block;
+  margin: auto;
+}
+
+.welcome-section span {
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+.welcome-section p {
+  font-size: 16px;
+  line-height: 1.31;
+}
+
+@media (max-width: 1200px) {
+  .plant-image {
+    right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .plant-image {
+    display: none;
+  }
+  .logo-image-big {
+    display: none;
+  }
+  .description {
+    float: none;
+    align-items: center;
+    margin-right: 0;
+  }
+  .welcome-section {
+    margin-top: 100px;
+  }
+  .section-first {
+    display: block;
+  }
+  .home {
+    margin-top: 50px;
+    padding: 2rem 2rem;
+  }
+  .description .title2 {
+    font-size: 36px;
+  }
+}
